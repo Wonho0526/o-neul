@@ -6,7 +6,7 @@ $('#fullpage').fullpage({
     scrollHorizontally: true,
     navigation: true, //좌우에 영역지정 메뉴
     navigationPosition: 'right',
-    navigationTooltips: ['o’neul', 'Value', 'Menu', 'Room', 'footer'],
+    navigationTooltips: ['o’neul', 'Value', 'Menu', 'Room',],
     showActiveTooltip: true,
 });
 //mgnb
@@ -66,4 +66,5 @@ const room_list = new Swiper(".room_list", {
         delay: 3000,
         disableOnInteraction: false,
     },
+
 });
